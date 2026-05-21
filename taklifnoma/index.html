@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Bitiruv Oqshomi 2026 — Taklifnoma</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+  <button class="music-btn" id="music-btn" onclick="toggleMusic()">&#127925;</button>
+  <div id="particles"></div>
+<div class="toast" id="toast">&#10003; Muvaffaqiyatli yuborildi!</div>
+
+
+<section class="hero">
+  <div class="hero-ornament">&#10022; &nbsp; Siz hurmatli mehmonimiz &nbsp; &#10022;</div>
+  <h1 class="hero-title"><em>Bitiruv</em><br>Oqshomi</h1>
+  <div class="hero-year">2 &nbsp; 0 &nbsp; 2 &nbsp; 6</div>
+  <div class="hero-divider"><span>&#127891;</span></div>
+  <p class="hero-desc">Aziz ustozlar, ota-onalar va do&#8217;stlar &#8212; sizni hayotimizning eng unutilmas kechasi &#8212; Bitiruv Oqshomimizda birga bo&#8217;lishga taklif etamiz.</p>
+  <div class="hero-scroll">Pastga aylantiring</div>
+</section>
+
+
+<section class="info-section">
+  <div class="info-card">
+    <div class="event-badge">Rasmiy Taklifnoma</div>
+    <h2 class="event-title">Bitiruv Oqshomi &#8212; 2026</h2>
+    <div class="info-divider"><span class="info-icon">&#127775;</span></div>
+    <div class="event-when">25 may 2026 &nbsp;|&nbsp; Soat 18:00</div>
+    <p class="event-where">&#128205; &#8220;Oltin Saroy&#8221; restorani, Toshkent shahri</p>
+    <div class="countdown">
+      <div class="c-block"><span class="c-num" id="days">0</span><span class="c-label">Kun</span></div>
+      <div class="c-block"><span class="c-num" id="hours">0</span><span class="c-label">Soat</span></div>
+      <div class="c-block"><span class="c-num" id="minutes">0</span><span class="c-label">Daqiqa</span></div>
+      <div class="c-block"><span class="c-num" id="seconds">0</span><span class="c-label">Soniya</span></div>
+    </div>
+    <a class="map-link" href="https://maps.app.goo.gl/JsPQ7yt4R6RBGAbV6" target="_blank">&#128205; &nbsp;Manzilni xaritada ko&#8217;rish</a>
+  </div>
+</section>
+
+<section class="gallery-section">
+  <div class="section-header">
+    <div class="section-eyebrow">&#10022; Xotiralar</div>
+    <h2 class="section-title">Yorqin Lahzalar</h2>
+  </div>
+  <div class="gallery-frame">
+    <img id="gallery-img" src="" alt="Bitiruv rasmi">
+  </div>
+  <div class="gallery-dots" id="dots"></div>
+</section>
+
+<section class="rsvp-section">
+  <div class="rsvp-card">
+    <h2 class="rsvp-title">Tashrifni Tasdiqlash</h2>
+    <p class="rsvp-sub">Bu sevinchmizni siz bilan baham ko&#8217;rishni istaymiz</p>
+    <form id="rsvp-form" onsubmit="handleRSVP(event)">
+      <div class="form-group">
+        <input class="form-input" id="r-name" type="text" placeholder="Ismingiz va familiyangiz" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-textarea" id="r-wish" placeholder="Bitiruvchilarga ezgu tilaklaringiz..."></textarea>
+      </div>
+      <button class="submit-btn" type="submit">Yuborish</button>
+    </form>
+  </div>
+</section>
+
+<section class="wishes-section">
+  <div class="section-header">
+    <div class="section-eyebrow">&#10022; Tilaklar</div>
+    <h2 class="section-title">Ezgu So&#8217;zlar</h2>
+  </div>
+  <div class="wishes-grid" id="wishes-grid">
+    <p id="empty-msg" style="color:var(--text-muted);font-style:italic;grid-column:1/-1;text-align:center;padding:20px 0;">
+      Hali tilak yozilmagan. Birinchi bo&#8217;lib tilak qoldiring! &#127775;
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>Bitiruv Oqshomi &nbsp;<span>2026</span>&nbsp; &#8212; Toshkent</p>
+  <p style="margin-top:8px;font-size:0.78rem;">Barcha bitiruvchilar bilan faxrlanamiz &#127891;</p>
+</footer>
+
+<script src="asset/js/script.js"></script>
+</body>
+</html>
